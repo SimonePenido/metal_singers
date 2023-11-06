@@ -206,6 +206,7 @@
     font-weight: 600;
     letter-spacing: .8px;
     text-shadow: 0 1px 0 rgba(0,0,0,0.3);
+    font-family: lexend;
 }
 
 .carousel__contents .user__title {
@@ -215,7 +216,7 @@
     font-weight: 800;
     text-transform: uppercase;
     color: transparent;
-    background: linear-gradient( 270deg, rgb(248, 191, 229), rgb(146, 54, 97) );
+    background: linear-gradient( 270deg, rgb(248, 191, 229), rgb(165, 72, 116) );
     background-clip: text;
     -webkit-background-clip: text;
     opacity: 0.85;
@@ -267,9 +268,10 @@
 }
 [data-active] .carousel__contents .user__name {
     transition-delay: 0.1s;
+    text-shadow: 0 -1px rgb(94, 1, 74);
 }
 [data-active] .carousel__contents .user__title {
-    opacity: 0.85; 
+    opacity: 0.65; 
     transition-delay: 0.05s;
 }
 

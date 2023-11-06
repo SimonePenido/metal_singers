@@ -1,28 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 
 :root {
-    --canvas: 329;
+    --canvas: 254;
     --bg: hsl(var(--canvas), 15%, 22%);
     --fg: hsl(var(--canvas), 39%, 95%);
     --link: hsl(var(--canvas), 90%, 80%);
-    --linkh: hsl(332, 52%, 53%);
-    --wgt: 200;
+    --linkh: hsl(254, 84%, 83%);
+    --wgt: 320;
 }
 
 body,
 html {
-    font-family: heebo, sans-serif;
+    font-family: metal mania, sans-serif;
     color: var(--fg);
     background: var(--bg);
     font-weight: var(--wgt);
+    text-shadow: -1px 0 pink, 0 1px rgb(192, 50, 149),
+    1px 0 rgb(161, 5, 115), 0 -1px black;
     padding: 0 0 50px;
     display: grid;
     place-items: center;
     height: 100%;
 }
 
+h1 {
+    font-family: 'Metal Mania';
+    text-shadow: -1px 0 pink, 0 1px rgb(192, 50, 149),
+    1px 0 rgb(161, 5, 115), 0 -1px black;
+    font-size: 2.5rem;
+    color: #eea7fc;
+    letter-spacing: 0.1em;
+}
+
 a {
-    color: var(--link);
+    color: var(--linkh);
     text-decoration: none;
     font-weight: 450;
     transition: all 0.3s ease;
@@ -32,6 +44,7 @@ a:focus,
 a:active {
     color: var(--linkh);
 }
+
 button {
     background: hsl(var(--canvas), 10%, 10%);
     color: inherit;
@@ -54,7 +67,7 @@ button {
     width: 24px;
     height: 24px;
     z-index: 10;
-    animation: iconsLoad 10s ease both 5s;
+    animation: iconsLoad 8s ease both 3s;
 }
 .social-icon path {
     fill: none;
@@ -78,4 +91,8 @@ button {
         opacity: 1;
         transform: translateY(0px);
     }
+}
+
+footer{
+    font-family: lexend;
 }
