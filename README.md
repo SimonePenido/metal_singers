@@ -13,3 +13,5 @@
 ## Acesso ao projeto
 
 Clique [aqui](https://github.com/SimonePenido/metal_singers)
+
+Acesso ao site: [aqui](https://simonepenido.github.io/metal_singers/)
